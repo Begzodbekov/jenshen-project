@@ -3,8 +3,14 @@
           padding: 0;
           box-sizing: border-box;
 }
+ul, li{
+          list-style-type: none;
+}
 .container{
           max-width: 1820px;
           padding: 0 10px;
           margin: 0 auto;
+}
+.App{
+          background-color: #FFF9F4;
 }

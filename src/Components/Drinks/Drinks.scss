@@ -1,0 +1,36 @@
+.Drinks{
+          background-image: url('../../img/drinksbackground.png');
+          background-repeat: no-repeat;
+          background-size: 100%;
+}
+
+.drinks_inner{
+          padding: 100px 457px 358px 99px;
+          .drinks_hero{
+                    h1{
+                              color: #4D3300;
+                              font-size: 54px;
+                              font-style: normal;
+                              font-weight: 500;
+                              line-height: 64.8px; /* 120% */
+                    }
+                    .drinks_list{
+                              max-width: 863px;
+                              display: flex;
+                              justify-content: space-between;
+                              align-items: center;
+                              flex-wrap: wrap;
+                              gap: 54px;
+                              margin-top: 77px;
+                              .drinks_items{
+                                        max-width: 300px;
+                                        color: #4D3300;
+                                        font-family: Roboto Slab;
+                                        font-size: 27px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: 30px; /* 125% */
+                              }
+                    }
+          }
+}

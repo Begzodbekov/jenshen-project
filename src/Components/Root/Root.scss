@@ -1,0 +1,31 @@
+.Root{
+          background-image: url('../../img/rootbackground.png');
+          background-repeat: no-repeat;
+          background-size: 100%;
+          .root_inner{
+                    padding: 89px 125px 56px 872px;
+                    .root_hero{
+                              h1{
+                                        color: #FFF;
+                                        font-family: Roboto Slab;
+                                        font-size: 36px;
+                                        font-style: normal;
+                                        font-weight: 500;
+                                        line-height: 46.3px; /* 128.611% */
+                                        max-width: 500px;
+                                        letter-spacing: 1px;
+                              }
+                              p{
+                                        color: #FFF;
+                                        font-family: Roboto Slab;
+                                        font-size: 20px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: 30px;
+                                        letter-spacing: 1px;
+                                        margin-top: 30px;
+                                        max-width: 743px;
+                              }
+                    }
+          }
+}
