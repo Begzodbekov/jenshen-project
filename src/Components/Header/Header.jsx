@@ -1,8 +1,12 @@
 import React from 'react'
-
+import './Header.scss'
 function Header() {
   return (
-    <div>Header</div>
+    <div className='Header'>
+        <div className="container">
+          
+        </div>
+    </div>
   )
 }
 
