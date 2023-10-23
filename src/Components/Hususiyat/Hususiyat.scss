@@ -1,0 +1,34 @@
+.big {
+//   background-image: url("../../img/Hususiyat__divImg.png");
+//   background-repeat: no-repeat;
+//   background-size: 90%;
+height: 602px;
+  display: flex;
+  position: relative;
+  .big__left {
+    color: #000;
+    font-family: Roboto Slab;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 670px;
+    height: 424px;
+    display: flex;
+   position: absolute;
+   left: 191px;
+bottom: 60px;
+}
+.big__right{
+    position: absolute;
+    width: 551.724px;
+height: 389.785px;
+right: 183px;
+bottom: 107px;
+}
+}
+
+.hususiyat__bg{
+    width: 100%;
+    margin: 0 auto;
+}

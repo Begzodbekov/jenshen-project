@@ -1,0 +1,43 @@
+.Hero {
+  width: 100%;
+  background-image: url("../../img/hero__bg.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: 100%;
+  .hero__inner {
+    flex-wrap: wrap;
+    padding-top: 307px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .hero__left {
+      h3 {
+        color: #fff;
+        font-family: Roboto Slab;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+      h2 {
+        width: 576px;
+        height: 158px;
+        color: #fff;
+        font-family: Roboto Slab;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      .hero__order{
+        
+            border-radius: 5px;
+            background: #167526;
+            padding: 18px 24px;
+            border: none;
+            color: #fff;
+        
+      }
+    }
+  }
+}
