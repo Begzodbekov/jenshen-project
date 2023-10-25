@@ -1,14 +1,15 @@
 .Kompaniya{
           background-image: url('../../img//companybackground.png');
           background-repeat: no-repeat;
-          background-size: 100%;
+          background-size: 100% 900px cover;
+        //   object-fit: contain;
           position: relative;
 }
 .kompaniya_inner{
           padding: 144px 1018px 93px 100px;
           .kompaniya_hero{
                     margin-top: 190px;
-                    h1{
+                    h2{
                               color: #FFF;
                               font-size: 54px;
                               font-weight: 400;

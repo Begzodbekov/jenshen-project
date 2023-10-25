@@ -6,7 +6,7 @@ function Drinks() {
           <div className="container">
             <div className="drinks_inner">
               <div className="drinks_hero">
-                <h1>Koreya qizil jensheni ichimligini kimlar iste'mol qiladilar?</h1>
+                <h2>Koreya qizil jensheni ichimligini kimlar iste'mol qiladilar?</h2>
                 <ul className='drinks_list'>
                   <li className='drinks_items'>O’zida doimiy charchoq va holsizlik xis qiladiganlar</li>
                   <li className='drinks_items'>Jinsiy quvvati kamligidan aziyat chekadiganlar</li>

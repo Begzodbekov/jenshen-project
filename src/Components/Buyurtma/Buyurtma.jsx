@@ -12,7 +12,7 @@ function Buyurtma() {
                     <span><p>Formani toʻldiring, mutaxascislardan bepul konsultatsiya oling va chegirmaga ega boling</p></span>
                    <div className="buyurtma__inp">
                    <input type="text" placeholder='Ismingiz' /> <br />
-                    <input type="text" value={'+998'} placeholder='+998'/> <br />
+                    <input type="text"  placeholder='+998'/> <br />
                     <button className=''>Buyurtma berish</button>
                    </div>
                   </div>
