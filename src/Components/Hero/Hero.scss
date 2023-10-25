@@ -3,7 +3,7 @@
   background-image: url("../../img/hero__bg.jpg");
   background-repeat: no-repeat;
   height: 100vh;
-  background-size: 100%;
+  background-size: cover;
   .hero__inner {
     flex-wrap: wrap;
     padding-top: 307px;
@@ -78,19 +78,14 @@ max-width: 100%;
     }
   }
 }
-@media (max-width:913px){
-  .hero__left{
-    h2{
-      font-size: 35px !important;
-    }
-  }
-  .hero__right{
-margin-top: -30%;
-    width: 200px;
-    // background-color: red;
-    img{
 
-max-width: 100%;
-    }
-  }
+@media (max-width:813px){
+.hero__inner{
+.hero__left{
+  margin: 0 auto;
+}
+}
+.hero__right{
+  margin: 0 auto;
+}
 }
