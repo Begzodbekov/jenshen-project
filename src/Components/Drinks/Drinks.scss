@@ -1,36 +1,227 @@
-.Drinks{
-          background-image: url('../../img/drinksbackground.png');
-          background-repeat: no-repeat;
-          background-size: 100%;
+.Drinks {
+    background-image: url('../../img/drinksbackground.png');
+    background-repeat: no-repeat;
+    background-size: 100% 900px;
 }
 
-.drinks_inner{
-          padding: 100px 457px 358px 99px;
-          .drinks_hero{
-                    h2{
-                              color: #4D3300;
-                              font-size: 54px;
-                              font-style: normal;
-                              font-weight: 500;
-                              line-height: 64.8px; /* 120% */
+.drinks_inner {
+    padding: 100px 457px 358px 99px;
+    .drinks_hero {
+        h2 {
+            color: #4D3300;
+            font-size: 54px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 64.8px;
+        }
+
+        .drinks_list {
+            max-width: 863px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 54px;
+            margin-top: 77px;
+            .drinks_items {
+                max-width: 300px;
+                color: #4D3300;
+                font-family: Roboto Slab;
+                font-size: 27px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 30px;
+                /* 125% */
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1670px){
+    .Drinks {
+        margin-top: -30px;
+    }
+}
+@media screen and (max-width:1660px){
+    .Drinks {
+        margin-top: -100px;
+    }
+}
+
+@media screen and (max-width:1280px){
+    .Drinks {
+        margin-top: -100px;
+        .drinks_hero{
+            .drinks_list{
+                max-width: 673px;
+                gap: 40px;
+                margin-left: -30px;
+            }
+        }
+    }
+}
+@media screen and (max-width:1280px){
+    .Drinks {
+        margin-top: -100px;
+        .drinks_inner {
+            padding: 100px 407px 358px 99px;
+            .drinks_hero{
+                .drinks_list{
+                    max-width: 673px;
+                    gap: 40px;
+                    margin-left: -30px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1185px){
+    .Drinks {
+        margin-top: -100px;
+        .drinks_inner {
+            padding: 100px 307px 358px 99px;
+            .drinks_hero{
+                .drinks_list{
+                    max-width: 673px;
+                    gap: 40px;
+                    margin-left: -30px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1090px){
+    .Drinks {
+        margin-top: -100px;
+        .drinks_inner {
+            padding: 100px 207px 358px 99px;
+            .drinks_hero{
+                .drinks_list{
+                    max-width: 673px;
+                    gap: 40px;
+                    margin-left: -30px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:985px){
+    .Drinks {
+        margin-top: -100px;
+        .drinks_inner {
+            padding: 100px 107px 358px 29px;
+            .drinks_hero{
+                .drinks_list{
+                    max-width: 673px;
+                    gap: 40px;
+                    margin-left: -30px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:815px){
+    .Drinks {
+        margin-top: -100px;
+        background-size: cover;
+        background-position: -250px -100px;
+        .drinks_inner {
+            padding: 100px 107px 358px 29px;
+            .drinks_hero{
+                h2{
+                 font-size: 44px;
+
+                }
+                .drinks_list{
+                    max-width: 673px;
+                    gap: 30px;
+                    margin-left: -30px;
+                    .drinks_items{
+                        font-size: 25px;
                     }
-                    .drinks_list{
-                              max-width: 863px;
-                              display: flex;
-                              justify-content: space-between;
-                              align-items: center;
-                              flex-wrap: wrap;
-                              gap: 54px;
-                              margin-top: 77px;
-                              .drinks_items{
-                                        max-width: 300px;
-                                        color: #4D3300;
-                                        font-family: Roboto Slab;
-                                        font-size: 27px;
-                                        font-style: normal;
-                                        font-weight: 400;
-                                        line-height: 30px; /* 125% */
-                              }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:810px){
+    .Drinks {
+        margin-top: -100px;
+        background-size: cover;
+        background-position: -250px -100px;
+        .drinks_inner {
+            padding: 100px 107px 358px 29px;
+            .drinks_hero{
+                max-width:652px;
+                h2{
+                 font-size: 44px;
+
+                }
+                .drinks_list{
+                    max-width: 673px;
+                    gap: 20px;
+                    margin-left: -30px;
+                    .drinks_items{
+                        font-size: 25px;
                     }
-          }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:795px){
+    .Drinks {
+        margin-top: -100px;
+        background-size: cover;
+        background-position: -250px -100px;
+        .drinks_inner {
+            padding: 100px 35px 358px 33px;
+            .drinks_hero{
+                max-width:652px;
+                h2{
+                 font-size: 44px;
+
+                }
+                .drinks_list{
+                    max-width: 673px;
+                    gap: 20px;
+                    margin-left: -30px;
+                    .drinks_items{
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:730px){
+    .Drinks {
+        margin-top: -100px;
+        background-size: cover;
+        background-position: -250px -100px;
+        .drinks_inner {
+            padding: 100px 35px 358px 33px;
+            .drinks_hero{
+                max-width:652px;
+                h2{
+                 font-size: 34px;
+
+                }
+                .drinks_list{
+                    max-width: 673px;
+                    gap: 15px;
+                    margin-left: -30px;
+                    .drinks_items{
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
 }
