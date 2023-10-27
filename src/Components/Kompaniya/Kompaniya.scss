@@ -1,29 +1,383 @@
-.Kompaniya{
-          background-image: url('../../img//companybackground.png');
-          background-repeat: no-repeat;
-          background-size: 100% 100%;
-          // background-position: center;
-        //   object-fit: contain;
-          // position: ;
+.Kompaniya {
+  background-image: url('../../img//companybackground.png');
+  background-repeat: no-repeat;
+  background-size: 100% 900px;
 }
-.kompaniya_inner{
-          padding: 144px 1018px 93px 100px;
-          .kompaniya_hero{
-                    margin-top: 190px;
-                    h2{
-                              color: #FFF;
-                              font-size: 54px;
-                              font-weight: 400;
-                              line-height: 64.8px; 
-                    }
-                    p{
-                              color: #FFF;
-                              font-family: Roboto Slab;
-                              font-size: 26px;
-                              font-style: normal;
-                              line-height: 38.5px; 
-                              margin-top: 30px;
-                              letter-spacing: 1px;
-                    }
-          }
+.kompaniya_inner {
+  padding: 144px 1018px 93px 100px;
+  .kompaniya_hero {
+    margin-top: 190px;
+    h2 {
+      color: #FFF;
+      font-size: 54px;
+      font-weight: 400;
+      line-height: 64.8px;
+    }
+
+    p {
+      color: #FFF;
+      font-family: Roboto Slab;
+      font-size: 26px;
+      font-style: normal;
+      line-height: 38.5px;
+      margin-top: 30px;
+      letter-spacing: 1px;
+    }
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .kompaniya_inner {
+    padding: 144px 1018px 93px 100px;
+    .kompaniya_hero {
+      margin-top: 190px;
+      h2 {
+        margin-right: -40px;
+      }
+  
+      p {
+        margin-right: -200px;
+      }
+    }
+  }
+  
+}
+
+
+@media screen and (max-width: 1560px) {
+  .kompaniya_inner {
+    padding: 144px 1018px 93px 100px;
+    .kompaniya_hero {
+      margin-top: 190px;
+      h2 {
+        margin-right: -100px;
+      }
+  
+      p {
+        margin-right: -200px;
+      }
+    }
+  }
+  
+}
+
+@media screen and (max-width: 1500px) {
+  .kompaniya_inner {
+    padding: 144px 1018px 93px 100px;
+    .kompaniya_hero {
+      margin-top: 190px;
+      h2 {
+        margin-right: -200px;
+      }
+  
+      p {
+        margin-right: -200px;
+      }
+    }
+  }
+  
+}
+@media screen and (max-width: 1415px) {
+  .kompaniya_inner {
+    padding: 144px 1018px 93px 100px;
+    .kompaniya_hero {
+      margin-top: 190px;
+      h2 {
+        margin-right: -200px;
+      }
+  
+      p {
+        margin-right: -300px;
+      }
+    }
+  }
+  
+}
+
+@media screen and (max-width: 1400px) {
+  .Kompaniya {
+    background-image: url('../../img//companybackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -510px;
+  }
+  .kompaniya_inner {
+    padding: 144px 1018px 93px 100px;
+    .kompaniya_hero {
+      margin-top: 190px;
+      h2 {
+        margin-right: -300px;
+      }
+  
+      p {
+        margin-right: -300px;
+      }
+    }
+  }
+  
+}
+
+@media screen and (max-width: 1300px) {
+  .Kompaniya {
+    background-image: url('../../img//companybackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -510px;
+  }
+  .kompaniya_inner {
+    padding: 144px 1018px 93px 100px;
+    .kompaniya_hero {
+      margin-top: 190px;
+      h2 {
+        margin-right: -400px;
+      }
+  
+      p {
+        margin-right: -400px;
+      }
+    }
+  }
+  
+}
+
+@media screen and (max-width: 1200px) {
+  .Kompaniya {
+    background-image: url('../../img//companybackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -310px;
+  }
+  .kompaniya_inner {
+    padding: 144px 1018px 93px 100px;
+    .kompaniya_hero {
+      margin-top: 100px;
+      h2 {
+        margin-right: -400px;
+        font-size: 44px;
+      }
+  
+      p {
+        margin-right: -400px;
+        font-size: 20px;
+        line-height: 30.5px;
+        letter-spacing: 1.5px;
+      }
+    }
+  }
+  
+}
+
+
+@media screen and (max-width: 1100px) {
+  .Kompaniya {
+    background-image: url('../../img//companybackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -310px;
+  }
+  .kompaniya_inner {
+    padding: 144px 910px 93px 44px;
+    .kompaniya_hero {
+      margin-top: 100px;
+      h2 {
+        margin-right: -400px;
+        font-size: 44px;
+      }
+  
+      p {
+        margin-right: -400px;
+        font-size: 20px;
+        line-height: 30.5px;
+        letter-spacing: 1.5px;
+      }
+    }
+  }
+  
+}
+
+@media screen and (max-width: 1145px) {
+  .Kompaniya {
+    background-image: url('../../img//companybackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -310px;
+  }
+  .kompaniya_inner {
+    padding: 144px 810px 93px 44px;
+    .kompaniya_hero {
+      margin-top: 100px;
+      h2 {
+        margin-right: -400px;
+        font-size: 44px;
+      }
+  
+      p {
+        margin-right: -400px;
+        font-size: 20px;
+        line-height: 30.5px;
+        letter-spacing: 1.5px;
+      }
+    }
+  }
+  
+}
+@media screen and (max-width: 900px) {
+  .Kompaniya {
+    background-image: url('../../img//companybackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -410px;
+  }
+  .kompaniya_inner {
+    padding: 104px 748px 93px 44px;
+    .kompaniya_hero {
+      margin-top: 100px;
+      h2 {
+        margin-right: -400px;
+        font-size: 44px;
+      }
+  
+      p {
+        margin-right: -400px;
+        font-size: 20px;
+        line-height: 30.5px;
+        letter-spacing: 1.5px;
+      }
+    }
+  }
+  
+}
+
+@media screen and (max-width: 770px) {
+  .Kompaniya {
+    background-image: url('../../img//companybackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -410px;
+  }
+  .kompaniya_inner {
+    padding: 104px 648px 93px 44px;
+    .kompaniya_hero {
+      margin-top: 100px;
+      h2 {
+        margin-right: -400px;
+        font-size: 40px;
+        margin-left: -30px;
+        color: #b9b3b3;
+
+      }
+  
+      p {
+        margin-left: -30px;
+        margin-right: -400px;
+        font-size: 17px;
+        line-height: 30.5px;
+        letter-spacing: 1.5px;
+        color: #b9b3b3;
+      }
+    }
+  }
+  
+}
+
+@media screen and (max-width: 700px) {
+  .kompaniya_inner {
+    padding: 104px 608px 93px 44px;
+  }
+}
+
+@media screen and (max-width: 665px) {
+  .kompaniya_inner {
+    padding: 104px 508px 93px 44px;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .kompaniya_inner {
+    padding: 104px 408px 93px 44px;
+        .kompaniya_hero {
+      margin-top: 100px;
+      h2 {
+        margin-right: -400px;
+        font-size: 35px;
+        margin-left: -30px;
+        color: #b9b3b3;
+
+      }
+  
+      p {
+        margin-left: -30px;
+        margin-right: -400px;
+        margin-top: -10px;
+        font-size: 15px;
+        line-height: 30.5px;
+        letter-spacing: 1.5px;
+        color: #b9b3b3;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 465px) {
+    .Kompaniya {
+    background-image: url('../../img//companybackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -110px;
+  }
+  .kompaniya_inner {
+    padding: 104px 308px 93px 44px;
+        .kompaniya_hero {
+      margin-top: 100px;
+      h2 {
+        margin-right: -200px;
+        font-size: 25px;
+        margin-left: -30px;
+        color: #fff;
+
+      }
+  
+      p {
+        margin-left: -30px;
+        margin-right: -300px;
+        margin-top: -10px;
+        font-size: 12px;
+        line-height: 23.5px;
+        letter-spacing: 1.5px;
+        color: #fff;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .Kompaniya {
+  background-image: url('../../img//companybackground.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -110px;
+}
+.kompaniya_inner {
+  padding: 104px 208px 93px 34px;
+      .kompaniya_hero {
+    margin-top: 100px;
+    h2 {
+      margin-right: -200px;
+      font-size: 25px;
+      margin-left: -30px;
+      color: #fff;
+
+    }
+
+    p {
+      margin-left: -30px;
+      margin-right: -200px;
+      margin-top: -10px;
+      font-size: 12px;
+      line-height: 23.5px;
+      letter-spacing: 1.5px;
+      color: #fff;
+    }
+  }
+}
 }

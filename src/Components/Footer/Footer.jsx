@@ -6,7 +6,7 @@ function Footer() {
     <div className='Footer'>
       <div className="container">
         <div className="footer_inner">
-          <div className='footer_items'>
+          <div className='footer_items item1'>
             <img src={Logo} alt="" />
             <p className='footer_description1'>Janubiy Koreyada tayyorlangan haqiqiy 6 yillik qizil jenshen ekstrakti</p>
             <div className='foote_social'>

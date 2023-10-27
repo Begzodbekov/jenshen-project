@@ -3,7 +3,7 @@
   background-image: url("../../img/hero__bg.jpg");
   background-repeat: no-repeat;
   height: 100vh;
-  background-size: 100%;
+  background-size: cover;
   .hero__inner {
     flex-wrap: wrap;
     padding-top: 307px;
@@ -40,4 +40,52 @@
       }
     }
   }
+}
+@media (max-width:1383px){
+  .hero__right{
+    width: 50%;
+    // background-color: red;
+    img{
+max-width: 100%;
+    }
+  }
+}
+@media (max-width:1189px){
+  .hero__right{
+    width: 45%;
+    img{
+max-width: 100%;
+    }
+  }
+}
+@media (max-width:1086px){
+  .hero__right{
+    width: 450px;
+    margin-top: -30%;
+    // background-color: red;
+    img{
+max-width: 100%;
+    }
+  }
+}
+@media (max-width:1086px){
+  .hero__right{
+    width: 300px;
+    margin-top: -30%;
+    // background-color: red;
+    img{
+max-width: 100%;
+    }
+  }
+}
+
+@media (max-width:813px){
+.hero__inner{
+.hero__left{
+  margin: 0 auto;
+}
+}
+.hero__right{
+  margin: 0 auto;
+}
 }
