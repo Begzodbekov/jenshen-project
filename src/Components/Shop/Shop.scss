@@ -1,41 +1,80 @@
-.Shop{
-    background-image: url('../../img/Shop__bg.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
+.Shop {
+  background-image: url("../../img/Shop__bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 
-    height: 946px;
-}
-.shop__inner{
-    gap: 25px;
-    flex-wrap: wrap;
-    padding-top: 228px;
+  .shop__inner {
+    position: relative;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    position: relative;
-
-.shop__leftSetImg{
-position: absolute;
-margin-left: -500px;
-margin-top: 202px;
-
-}
-.shop__bottom{
-    position: relative;
-    .shop__bottom__item{
+    .shop_left {
+      background-image: url("../../img//Shop__left.png");
+      background-repeat: no-repeat;
+      height: 573px;
+      width: 100%;
+      position: relative;
+      .shop__leftSet {
+        position: absolute;
         display: flex;
-    position: absolute;
-bottom: 0px;
-margin-left: 163px;
-top: -58px;
+        top: 35%;
+        left: 22%;
+      }
+      span {
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        right: 40%;
+        color: #fff;
+        font-family: Roboto Slab;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 62.108px; /* 194.089% */
+      }
+    }
+    .shop_right {
+      position: relative;
+      background-image: url("../../img//Shop__left.png");
+      background-repeat: no-repeat;
+      width: 100%;
+      position: relative;
+      .shop__leftSet {
+        position: absolute;
+        display: flex;
+        top: 35%;
+
+        right: 40%;
+        
+      }
+      span {
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        right: 40%;
+        color: #fff;
+        font-family: Roboto Slab;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 62.108px; /* 194.089% */
+      }
+    }
+  }
 }
-p{
-    color: #FFF;
-font-family: Roboto Slab;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: 62.108px; /* 194.089% */
-}
-}
-}
+
+// @media (max-width:1430px){
+// .shop__inner{
+// // margin: 0 auto ;
+// // display: flex;
+// // justify-content: center;
+// // padding-top: 10px !important;
+// // height: 100vh !important;
+// .shop__left{
+//    .shop__leftImg{
+//     // width: 350px;
+//    }
+// }
+// }
+
+// }

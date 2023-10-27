@@ -9,6 +9,9 @@
       display: flex;
       justify-content: space-between;
       width: 100%;
+      background-image: url('../../img/Difference__Bg.png');
+      background-repeat: no-repeat;
+      background-position:abs($number: 80px);
       p {
         display: flex;
         width: 578px;
@@ -27,6 +30,7 @@
     .difference__top-right{
       display: flex;
       align-items: center;
+     padding-left: 10px !important;
     }
   }
   .difference__bottom {
@@ -34,7 +38,13 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin-left: 137px;
     .difference__top-left {
+      width: 574px;
+      background-image: url('../../img/Difference__Bg.png');
+      background-position: -110px;
+      background-repeat: no-repeat;
+      margin-right: 37px !important;
       p {
         display: flex;
         width: 578px;
@@ -48,6 +58,7 @@
         font-weight: 400;
         line-height: 33.5px; /* 152.273% */
         padding-right: 50px;
+      
       }
     }
   }
