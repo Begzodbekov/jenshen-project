@@ -17,9 +17,9 @@ function Footer() {
             </div>
           </div>
           <div className='footer_items item2'>
-            <p>Kompaniya haqida</p>
-            <p>faktlar</p>
-            <p>mahsulot</p>
+            <p><a href="">Kompaniya haqida</a></p>
+            <p><a href="">faktlar </a></p>
+            <p><a href="">mahsulot </a></p>
           </div>
           <div className='footer_items'>
             <h3>Formani toʻldiring, mutaxascislardan bepul konsultatsiya oling va chegirmaga ega boling</h3>
