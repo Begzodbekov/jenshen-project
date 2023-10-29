@@ -2,62 +2,70 @@
   background-image: url("../../img/Shop__bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
-
+  height: 1000px;
   .shop__inner {
     position: relative;
     display: flex;
     justify-content: space-between;
+    padding-top: 230px;
     .shop_left {
       background-image: url("../../img//Shop__left.png");
       background-repeat: no-repeat;
-      height: 573px;
-      width: 100%;
-      position: relative;
-      .shop__leftSet {
-        position: absolute;
-        display: flex;
-        top: 35%;
-        left: 22%;
-      }
-      span {
-        display: flex;
-        position: absolute;
-        bottom: 0;
-        right: 40%;
-        color: #fff;
-        font-family: Roboto Slab;
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 62.108px; /* 194.089% */
+      height: 900px;
+      padding: 150px;
+      .shop_left_group{
+        margin-top: 80px;
+        margin-left: 50px;
+        .shop__leftSet{
+          max-width: 271px;
+        }
+        .shop_left_definition{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          max-width: 800px;
+          gap: 60px;
+          margin-left: -55px;
+          margin-top: 50px;
+          p{
+            color: #FFF;
+            font-family: Roboto Slab;
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 62.108px; /* 194.089% */
+          }
+        }
       }
     }
     .shop_right {
-      position: relative;
       background-image: url("../../img//Shop__left.png");
       background-repeat: no-repeat;
-      width: 100%;
-      position: relative;
-      .shop__leftSet {
-        position: absolute;
-        display: flex;
-        top: 35%;
-
-        right: 40%;
-        
-      }
-      span {
-        display: flex;
-        position: absolute;
-        bottom: 0;
-        right: 40%;
-        color: #fff;
-        font-family: Roboto Slab;
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 62.108px; /* 194.089% */
+      height: 900px;
+      padding: 150px;
+      .shop_left_group{
+        margin-top: 80px;
+        margin-left: 50px;
+        .shop__leftSet{
+          max-width: 271px;
+        }
+        .shop_left_definition{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          max-width: 800px;
+          gap: 60px;
+          margin-left: -55px;
+          margin-top: 50px;
+          p{
+            color: #FFF;
+            font-family: Roboto Slab;
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 62.108px; /* 194.089% */
+          }
+        }
       }
     }
   }

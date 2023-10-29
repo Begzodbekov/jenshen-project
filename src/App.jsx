@@ -17,14 +17,14 @@ function App() {
       <Header/>
       <Hero/>
       <Buyurtma/>
-      <Shop/>
-      <Difference/>
-      <Hususiyat/>
-      <Kompaniya/>
-      <Drinks/>
-      <Root/>
-      <Facts/>
-      <Footer/>
+      {/* <Shop/> */}
+      {/* <Difference/> */}
+      {/* <Hususiyat/> */}
+      {/* <Kompaniya/> */}
+      {/* <Drinks/> */}
+      {/* <Root/> */}
+      {/* <Facts/> */}
+      {/* <Footer/> */}
     </div>
   );
 }
