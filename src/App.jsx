@@ -14,12 +14,12 @@ import Shop from './Components/Shop/Shop';
 function App() {
   return (
     <div className="App">
-      {/* <Header/> */}
-      {/* <Hero/> */}
-      {/* <Buyurtma/> */}
-      {/* <Shop/> */}
-      {/* <Difference/> */}
-      {/* <Hususiyat/> */}
+      <Header/>
+      <Hero/>
+      <Buyurtma/>
+      <Shop/>
+      <Difference/>
+      <Hususiyat/>
       <Kompaniya/>
       <Drinks/>
       <Root/>

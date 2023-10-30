@@ -304,13 +304,59 @@
   }
 }
 
+// @media (max-width:1037px) {
+//   .buyurtma__inner {
+//     .buyurtma__right {
+//       margin-left: -201px;
 
+//       img {
+//         width: 90%;
+//         height: 90%;
+//       }
+//     }
+//   }
+// }
 
-@media (max-width:1037px) {
+@media (max-width:1100px) {
   .buyurtma__inner {
+    .buyurtma__left {
+      .box {
+        max-width: 590px;
+        padding: 20px 30px 20px 30px;
+        h2 {
+          color: #fff;
+          font-size: 25px;
+          letter-spacing: 5px;
+        }
+  
+        p {
+          color: #fff;
+          font-size: 13px;
+          max-width: 300px;
+          margin-top: 20px;
+          letter-spacing: 1px;
+        }
+        .buyurtma__inp {
+          text-align: center;
+          input {
+            padding: 15px 100px 15px 20px;
+            margin-left: -5px;
+            margin-bottom: 30px;
+            &::placeholder {
+              color: #fff;
+            }
+          }
+          button {
+            padding: 15px 80px 15px 80px;
+            border-radius: 10.521px;  
+            font-size: 17px;
+            margin-top: -10px;
+          }
+        }
+      }
+    }
     .buyurtma__right {
-      margin-left: -201px;
-
+      margin-left: -1px;
       img {
         width: 90%;
         height: 90%;
@@ -319,12 +365,161 @@
   }
 }
 
-.ssa {
-  width: 100%;
-  height: 100%;
-  background-color: red;
+@media (max-width:900px) {
+  .buyurtma__inner {
+    margin-left: 20px;
+    .buyurtma__left {
+      .box {
+        max-width: 590px;
+        padding: 20px 30px 20px 30px;
+        h2 {
+          color: #fff;
+          font-size: 20px;
+          letter-spacing: 5px;
+        }
+  
+        p {
+          color: #fff;
+          font-size: 13px;
+          max-width: 300px;
+          margin-top: 20px;
+          letter-spacing: 1px;
+        }
+        .buyurtma__inp {
+          text-align: center;
+          input {
+            padding: 10px 70px 10px 20px;
+            margin-left: -5px;
+            margin-bottom: 30px;
+            &::placeholder {
+              color: #fff;
+            }
+          }
+          button {
+            padding: 13px 76px 13px 76px;
+            border-radius: 10.521px;
+            font-size: 14px;
+            margin-top: -10px;
+          }
+        }
+      }
+    }
+    .buyurtma__right {
+      margin-left: -1px;
+      img {
+        width: 90%;
+        height: 90%;
+      }
+    }
+  }
 }
 
-@media screen and (max-width: 1625px) {
+@media (max-width:800px) {
+  .buyurtma__inner {
+    margin-left: 20px;
+    .buyurtma__left {
+      .box {
+        max-width: 590px;
+        padding: 20px 30px 20px 30px;
+        h2 {
+          color: #fff;
+          font-size: 15px;
+          letter-spacing: 5px;
+        }
   
+        p {
+          color: #fff;
+          font-size: 13px;
+          max-width: 300px;
+          margin-top: 20px;
+          letter-spacing: 1px;
+          line-height: 15px;
+        }
+        .buyurtma__inp {
+          text-align: center;
+          input {
+            padding: 10px 50px 10px 20px;
+            margin-left: -5px;
+            margin-bottom: 15px;
+            &::placeholder {
+              color: #fff;
+            }
+          }
+          button {
+            padding: 13px 66px 13px 66px;
+            border-radius: 10.521px;
+            font-size: 14px;
+            margin-top: -5px;
+          }
+        }
+      }
+    }
+    .buyurtma__right {
+      margin-left: -1px;
+      img {
+        width: 90%;
+        height: 90%;
+      }
+    }
+  }
 }
+@media (max-width:630px) {
+  .buyurtma__inner {
+    margin-left: 20px;
+    flex-direction: column;
+    .buyurtma__left {
+      .box {
+        max-width: 590px;
+        padding: 20px 20px 30px 20px;
+        h2 {
+          color: #fff;
+          font-size: 20px;
+          letter-spacing: 5px;
+        }
+  
+        p {
+          color: #fff;
+          font-size: 13px;
+          max-width: 300px;
+          margin-top: 20px;
+          letter-spacing: 1px;
+          line-height: 15px;
+        }
+        .buyurtma__inp {
+          text-align: center;
+          input {
+            padding: 10px 50px 10px 20px;
+            margin-left: -5px;
+            margin-bottom: 15px;
+            &::placeholder {
+              color: #fff;
+            }
+          }
+          button {
+            padding: 13px 66px 13px 66px;
+            border-radius: 10.521px;
+            font-size: 14px;
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+    .buyurtma__right {
+      margin-left: -1px;
+      img {
+        width: 90%;
+        height: 90%;
+      }
+    }
+  }
+}
+
+// .ssa {
+//   width: 100%;
+//   height: 100%;
+//   background-color: red;
+// }
+
+// @media screen and (max-width: 1625px) {
+  
+// }
