@@ -31,8 +31,7 @@ function Difference() {
           </div>
           <div className="difference__bottom">
               <div className="difference__bottom-right">
-              <img src={difference__bottom} alt="difference__bottom" />
-                
+                 <img src={difference__bottom} alt="difference__bottom" />
               </div>
             <div className="difference__top-left">
               <p>
